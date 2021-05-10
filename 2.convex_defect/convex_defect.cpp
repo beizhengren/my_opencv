@@ -19,7 +19,7 @@ void thresh_callback(int, void*);
 /** @function main */
 int main(int argc, char** argv)
 {
-    /// Load source image and convert it to gray
+    /// Load source image (in black and white 3 channels' png pattern) and convert it to gray
     src = imread(argv[1], 1);
     
     /// Convert image to gray and blur it
